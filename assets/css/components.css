@@ -1,0 +1,190 @@
+
+
+/* to have the total size of an element you need to add all these properties together to get the box model */
+/* .box {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid;*/
+
+   body {
+    background-image: linear-gradient(243deg, hsl(284,86%,77%),hsl(335.429,86%,77%),hsl(26.857,86%,77%),hsl(78.286,86%,77%),hsl(129.714,86%,77%),hsl(181.143,86%,77%),hsl(232.571,86%,77%));   }
+
+
+header {
+    height: 140px;
+    background-color: rgba(222, 183, 215, 0.933);
+
+}
+
+nav {
+    height: 0%;
+    text-align: center;
+    line-height: 140px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0px 20px;
+    color: rgb(138, 126, 132)
+}
+
+
+
+
+
+
+.h-1 {
+    
+    text-align: center;
+    color: rgb(149, 37, 102);
+    /* margin-top: 0; */
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+.photo-board {
+    position: relative;
+    left: 250px;
+    margin: 0 15px;
+    padding: 10px;
+    border: 5px solid;
+    background-color: rgb(203, 189, 189);
+    
+}
+
+    
+
+
+
+
+.row {
+    background-color: hsl(120, 87%, 45%); height: 200px;
+    margin-top: 25px;
+}
+
+.boxs {
+    width: 100%;
+    height: 80px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: aqua;
+}
+
+.p-1 {
+   
+    width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    background-color: #d80f0f;
+    
+}
+
+
+.p-2 {
+    
+    width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    background-color: #570808;
+
+}
+
+.news__content {
+    color: rgb(19, 237, 237);
+    text-align: center;
+    padding: 50px;
+}
+
+.news__button {
+    
+    width: 80px;
+    height: 30px;background-color: hsl(57, 93%, 59%);
+    margin: 0 45%
+}
+
+.news__h-2 {
+    text-align: center;
+
+}
+
+
+
+
+
+footer {
+    height: 145px;
+    background-color: rgba(222, 183, 215, 0.933);
+    
+a.facebook::before {
+    content:"\261B"; color: blue;
+}
+
+a.instagram::before {
+    content: "\2625"; color: rgb(240, 76, 226);
+}
+
+a.website::before {
+    content: "\2622"; color: #d0f41c;
+ }
+}
+
+
+.photo-board-2 {
+position: relative;
+
+margin: 0 15px;
+    padding: 10px;
+    border: 5px solid;
+    background-color: #f4f0f0;
+    
+
+}
+
+
+.h-3 {
+    text-align: center;
+}
+ 
+.h-3::after {
+    content: "\2668"; color: #13140b;
+    position: relative;
+    right: 19px;
+}
+   
+
+.main-text {
+    width: 1325px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid;
+    overflow-y: scroll;
+    background-color: #eccce6;
+}
+
+
+button {
+      
+background-color: rgb(240, 160, 236);
+position: relative;
+margin-left: 500px;
+cursor: grab;
+margin-top: 5px;
+margin-bottom: 15px;
+
+}
